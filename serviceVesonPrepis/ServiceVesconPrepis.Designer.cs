@@ -1,6 +1,6 @@
 ﻿namespace serviceVesonPrepis
 {
-    partial class Service1
+    partial class ServiceVesconPrepis
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // ServiceVesconPrepis
+            // 
+            this.CanShutdown = true;
+            this.ServiceName = "serviceVesconPrepis";
+
         }
 
         #endregion
